@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ingreso-egreso-app-d80cc": {
+      "hosting": {
+        "ingresoEgresoApp": [
+          "ingreso-egreso-app-d80cc"
+        ]
+      }
+    }
+  }
+}
