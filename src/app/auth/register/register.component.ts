@@ -54,7 +54,6 @@ export class RegisterComponent implements OnInit, OnDestroy {
       .crearUsuario(nombre, correo, password)
       .then((credenciales) => {
         // Swal.close();
-        console.log(credenciales);
         this._store.dispatch(uiActions.stopLoading());
         this._router.navigate(['/']);
       })
